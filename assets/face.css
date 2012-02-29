@@ -1,0 +1,71 @@
+html, body { height: 100%; }
+
+body {
+	background: #dfebeb url(images/bg.jpg) no-repeat center;
+	background-size: contain;
+	font-family: Helvetica, Geneva, Arial;
+	line-height: 1.4em;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+span {
+	display: block;
+	opacity: 1;
+}
+
+.selected {
+	/*border: 1px dashed #880000;*/
+	background-color: rgba(200,0,0,.2);
+}
+
+.selected2 {
+	/*border: 1px solid #CC0000;*/
+	background-color: rgba(200,0,0,.4);
+}
+
+div {
+	position: absolute;
+	z-index: 1;
+}
+div#img1 {
+	background-image: url(images/mouth1.png);
+	width: 200px;
+	height: 101px;
+}
+div#img2 {
+	background-image: url(images/mouth2.png);
+	width: 200px;
+	height: 115px;
+}
+div#img3 {
+	background-image: url(images/nose1.png);
+	width: 160px;
+	height: 132px;
+}
+div#img4 {
+	background-image: url(images/nose2.png);
+	width: 150px;
+	height: 201px;
+}
+div#img5 {
+	background-image: url(images/eye1.png);
+	width: 147px;
+	height: 101px;
+}
+div#img6 {
+	background-image: url(images/eye2.png);
+	width: 160px;
+	height: 121px;
+}
+
+div#warning {
+	top: 5px;
+	right: 5px;
+	width: 220px;
+	display: none;
+	padding: 10px;
+	background: rgba(255,255,255,.5);
+}
